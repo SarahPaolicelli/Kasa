@@ -1,12 +1,16 @@
+import { Link } from 'react-router-dom';
 import logo from '../Assets/logo.png'
+
+import Style from '../Styles/Header.css'
+
 
 function Header() {
     return (
         <div className='kasa-banner'>
-            <img src={logo} alt='Kasa écrit en rouge avec une mpaison à la place du premier A' className='kasa-logo' />
-            <ul>
-                <li>Accueil</li>
-                <li>A propos</li>
+            <img src={logo} alt='Kasa écrit en rouge avec une maison à la place du premier A' className='kasa-logo' />
+            <ul className='menuNav'>
+                <li className='menuPuce'> <Link to="">Accueil</Link> </li>
+                <li className='menuPuce'> <Link to="aPropos">A Propos</Link> </li>
             </ul>
         </div>
     )

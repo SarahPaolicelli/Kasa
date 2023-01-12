@@ -1,0 +1,14 @@
+.container-banner{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    border-radius:25px;
+    margin:30px;
+    overflow: hidden;
+}
+
+.banner{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}

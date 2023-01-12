@@ -1,4 +1,39 @@
-.content-card {
+.content-cards {
     background: #F7F7F7;
     border-radius: 25px;
+    margin:30px;
+}
+
+.list-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    padding-left: 0px;
+}
+
+.card {
+    width: 300px;
+    height:300px;
+    background: rgb(147,55,70);
+    background: linear-gradient(0deg, rgba(147,55,70,1) 0%, rgba(255,96,96,1) 96%);
+    border-radius: 15px;
+    list-style: none;
+    margin: 30px;
+    color:white;
+    overflow: hidden;
+}
+
+.card:hover > .img-loc{
+    height: 0%;
+}
+
+.title-loc{
+    margin-left: 5px;
+}
+
+.img-loc{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
 }

@@ -3,10 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "../Pages/Home";
 import NotFound from "../Pages/NotFound";
 
-import Header from "./Header";
-import logo from '../Assets/logo.png';
-
-import Style from '../Styles/App.css'
+import '../Styles/App.css'
 
 function App() {
   return (

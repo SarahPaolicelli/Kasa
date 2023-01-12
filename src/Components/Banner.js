@@ -1,8 +1,11 @@
-import { Link } from 'react-router-dom';
+import banner from "../Assets/banner.png"
+import "../Styles/Banner.css"
 
 function Banner () {
     return (
-            <div></div>
+            <div className='container-banner'>
+                <img src={banner} className="banner" alt="une foret"/>
+            </div>
     )
 }
 

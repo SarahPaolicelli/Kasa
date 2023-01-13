@@ -1,9 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 
-import Home from "../Pages/Home";
-import NotFound from "../Pages/NotFound";
-
-import '../Styles/App.css'
+import Home from "./Pages/Home";
+import NotFound from "./Pages/NotFound";
+import Appart from "./Pages/Appart"
 
 function App() {
   return (
@@ -11,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/Appart/:id" element={<Appart />} />
       </Routes>
     </div>
   );

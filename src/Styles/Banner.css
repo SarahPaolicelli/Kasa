@@ -1,14 +1,16 @@
 .container-banner{
-    width: auto;
-    height: auto;
     overflow: hidden;
     border-radius:25px;
-    margin:30px;
-    overflow: hidden;
+    margin: auto;
+    
 }
 
 .banner{
-    width: 100%;
-    position: relative;
-    overflow: hidden;
+    filter : brightness(60%);
+    border-radius:25px;
+    width: 95%;
+}
+
+.banner-txt { 
+    font-size: 20px;
 }

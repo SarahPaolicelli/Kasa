@@ -8,7 +8,7 @@ function NotFound() {
     return (
         <div>     
             <Header/>       
-        	<h1>404</h1>
+        	<h1 className='notfound-txt'>404</h1>
             <p className="notfound">Oups ! La page que vous demandez n'existe pas.</p>
             <Link to ="/" className="link-back">Retourner sur la page d'accueil</Link>
             <Footer/>

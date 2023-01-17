@@ -1,18 +1,19 @@
-import { useParams } from 'react-router-dom'
-//import React, { useState } from 'react' ;
 import Header from '../Components/Header.js';
+import BannerBis from '../Components/BannerBis.js';
+import SectionValue from '../Components/SectionValue.js';
 import Footer from '../Components/Footer.js';
+
 import '../Styles/Appart.css'
 
-function Appart() {
-    const {id} = useParams()
+function About() {
     return (
         <div>     
         	<Header/>
-            {id}
+            <BannerBis/>
+            <SectionValue/>
             <Footer/>
         </div>
     )
 }
 
-export default Appart;
+export default About;

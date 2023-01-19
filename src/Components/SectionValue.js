@@ -8,7 +8,7 @@ function SectionValue() {
     const [isContentVisible, setIsContentVisible] = useState(true);
     const clickBtn = entry => {
     	if (isContentVisible === true) {
-      		setIsContentVisible(false)      
+      		setIsContentVisible(false) 
     	} else {
       		setIsContentVisible(true)  
     	}
@@ -19,7 +19,7 @@ function SectionValue() {
             <div key={value.title} className='container-value'>
                 <h3 className='title-sectionValue btn' >{value.title}
                     <div className='container-vector'>
-                        <img src={vectorBottom} alt='une fleche vers le bas' className='vector' onClick={() => clickBtn()}/>
+                        <img src={vectorBottom} alt='une fleche' className='vector' onClick={() => clickBtn()}/>
                     </div>
                 </h3>
                 { isContentVisible && <div className="content">{value.description}</div>}

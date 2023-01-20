@@ -1,9 +1,7 @@
-//import { Link } from 'react-router-dom'
-
 import Header from '../Components/Header.js';
 import Banner from '../Components/Banner.js';
-import Card from '../Components/Card.js';
 import Footer from '../Components/Footer.js';
+import AppartList from '../Components/AppartList.js';
 import "../Styles/Home.css"
 
 
@@ -12,9 +10,7 @@ function Home() {
         <div>     
         	<Header/>
             <Banner/>
-            <div className='content-cards'>
-                <Card/>
-            </div>
+            <AppartList/>
             <Footer/>      
             
         </div>

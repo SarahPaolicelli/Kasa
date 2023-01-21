@@ -6,11 +6,13 @@ import '../Styles/NotFound.css'
 
 function NotFound() {
     return (
-        <div>     
-            <Header/>       
-        	<h1 className='notfound-txt'>404</h1>
-            <p className="notfound">Oups ! La page que vous demandez n'existe pas.</p>
-            <Link to ="/" className="link-back">Retourner sur la page d'accueil</Link>
+        <div className="app-container">     
+            <Header/> 
+            <main>
+        	   <h1 className='notfound-txt'>404</h1>
+                <p className="notfound">Oups ! La page que vous demandez n'existe pas.</p>
+                <Link to ="/" className="link-back">Retourner sur la page d'accueil</Link>
+            </main>
             <Footer/>
         </div>
     )

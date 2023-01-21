@@ -5,6 +5,8 @@ import NotFound from "./Pages/NotFound";
 import Appart from "./Pages/Appart";
 import About from "./Pages/About";
 
+import './Styles/App.css'
+
 function App() {
 	return (
 		<div className="App">

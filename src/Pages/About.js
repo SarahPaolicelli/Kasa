@@ -7,10 +7,12 @@ import '../Styles/Appart.css'
 
 function About() {
     return (
-        <div>     
+        <div className="app-container">     
         	<Header/>
-            <BannerBis/>
-            <SectionValue/>
+            <main>
+                <BannerBis/>
+                <SectionValue/>
+            </main>
             <Footer/>
         </div>
     )

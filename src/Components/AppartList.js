@@ -1,5 +1,5 @@
 import '../Styles/Card.css';
-import { list } from '../Datas/list';
+import list from '../Datas/list.json';
 import Card from './Card';
 
 function AppartList() {

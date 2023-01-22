@@ -19,8 +19,8 @@ function SectionValue() {
             <div key={value.title} className='container-value'>
                 <h3 className='title-sectionValue btn' onClick={() => clickBtn(value.id)} >{value.title}
                     <div className='container-vector'>
-                        { visibleSection === value.id && <img src={vectorBottom} alt='une fleche' className='vector' />}
-                        { visibleSection !== value.id && <img src={vectorTop} alt='une fleche' className='vector' />}
+                        { visibleSection === value.id && <img src={vectorTop} alt='une fleche' className='vector' />}
+                        { visibleSection !== value.id && <img src={vectorBottom} alt='une fleche' className='vector' />}
                     </div>
                 </h3>
                 { visibleSection === value.id && <div className="content">{value.description}</div>}

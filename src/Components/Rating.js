@@ -3,8 +3,8 @@ import starGrey from '../Assets/starGrey.png';
 
 function Rating(props) {
     const value = props.value;
-
     const range = [1, 2, 3, 4, 5];
+    
     return (
         <div className='container-star'>
             {range.map((rangeElem) =>

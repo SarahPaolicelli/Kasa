@@ -12,7 +12,7 @@ function SectionValue() {
         } else {
             setVisibleSection(entry)
         }
-}
+    }
     
     return(        
         values.map((value) => (

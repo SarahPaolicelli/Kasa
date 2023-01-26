@@ -1,15 +1,22 @@
 .container-banner{
     overflow: hidden;
     border-radius:25px;
-    margin: auto;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .banner{
     filter : brightness(60%);
     border-radius:25px;
     width: 95%;
+    position: relative; 
 }
 
 .banner-txt { 
-    font-size: 20px;
+    padding: 30px;
+    font-size:40px;
+    position: absolute;
+    color:white;
 }

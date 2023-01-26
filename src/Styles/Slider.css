@@ -1,0 +1,26 @@
+.slider{
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.vectorLeft,
+.vectorRight{
+    cursor: pointer;
+    position: absolute;
+    color: white ;
+    padding: 10px;  
+}
+
+.vectorLeft{
+    left:0;
+}
+
+.vectorRight{
+    right: 0;
+}

@@ -3,10 +3,10 @@ import "../Styles/Banner.css"
 
 function Banner () {
     return (
-            <div className='container-banner'>
-                <img src={banner} alt="des montagnes" className="banner"/>
-                <h1 className="banner-txt">Chez vous, partout et ailleurs</h1>
-            </div>
+        <div className="container-banner">
+            <img src={banner} alt="des montagnes" className="banner"/>
+            <div className="banner-txt">Chez vous, partout et ailleurs</div>
+        </div>
     )
 }
 

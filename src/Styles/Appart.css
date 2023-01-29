@@ -99,4 +99,22 @@ ul{
     display: flex;
     flex-direction: row-reverse
    }
+
+   .container-value{
+    width: auto;
+    margin: auto;
+    width: 95%;
+   }
+
+   .container-pictures{
+    margin:auto;
+   }
+
+   .appart-collapse{
+    flex-direction: column;
+   }
+
+   .appart-collapse>.container-value{
+    width: 95%;
+}
 }

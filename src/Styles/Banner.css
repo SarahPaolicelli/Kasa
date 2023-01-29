@@ -4,13 +4,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    width: 95%;
+    margin: 20px auto;
 }
 
 .banner{
     filter : brightness(60%);
     border-radius:25px;
-    width: 95%;
     position: relative; 
 }
 
@@ -19,4 +19,17 @@
     font-size:40px;
     position: absolute;
     color:white;
+}
+
+
+/* media query */
+@media (min-width:300px) and (max-width:580px) {
+
+    .banner-txt{
+        font-size:25px;
+    }
+
+    .container-banner{
+        padding-right: 135px;
+    }
 }

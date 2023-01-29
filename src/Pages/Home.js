@@ -9,8 +9,7 @@ function Home() {
         	<Header/>
             <Banner/>
             <AppartList/>
-            <Footer/>      
-            
+            <Footer/>       
         </div>
     )
 } 

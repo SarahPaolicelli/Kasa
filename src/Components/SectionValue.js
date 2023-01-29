@@ -1,31 +1,12 @@
 import '../Styles/SectionValue.css'
-import React, { useState } from 'react' ;
 import { values } from '../Datas/values';
-import vectorBottom from '../Assets/vectorBottom.png'
-import vectorTop from '../Assets/vectorTop.png'
+import Collapse from './Collapse';
 
-function SectionValue() {
-    const [visibleSection, setVisibleSection] = useState(true);
-    const clickBtn = entry => {
-        if (entry === visibleSection) {
-            setVisibleSection('')
-        } else {
-            setVisibleSection(entry)
-        }
-    }
-    
+function SectionValue() {   
     return(        
         values.map((value) => (
-            <div key={value.title} className='container-value'>
-                <h3 className='title-sectionValue btn' onClick={() => clickBtn(value.id)} >{value.title}
-                    <div className='container-vector'>
-                        { visibleSection === value.id && <img src={vectorTop} alt='une fleche' className='vector' />}
-                        { visibleSection !== value.id && <img src={vectorBottom} alt='une fleche' className='vector' />}
-                    </div>
-                </h3>
-                { visibleSection === value.id && <div className="content">{value.description}</div>}
-            </div>
-    )))
+            <Collapse value={value.description} name={value.title} key={value.title}/>))
+    )
 }
 
 export default SectionValue;

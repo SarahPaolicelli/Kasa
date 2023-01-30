@@ -1,7 +1,7 @@
 .container-pictures {
     width: 95%;
     height:400px;
-    margin: 30px;
+    margin: auto;
 }
 
 .container-topLevel{
@@ -85,7 +85,7 @@ ul{
 
 /* media queries */
 
-@media (min-width:100px) and (max-width:992px)
+@media (min-width:100px) and (max-width:600px)
 {
    .container-topLevel {
         display: flex;
@@ -96,25 +96,28 @@ ul{
    }
 
    .hostRating {
-    display: flex;
-    flex-direction: row-reverse
+        display: flex;
+        flex-direction: row-reverse;
+        width:100%;
+        justify-content: space-between;
+        align-items: center;
    }
 
    .container-value{
-    width: auto;
-    margin: auto;
-    width: 95%;
+        width: auto;
+        margin: auto;
+        width: 95%;
    }
 
    .container-pictures{
-    margin:auto;
+        margin:auto;
    }
 
    .appart-collapse{
-    flex-direction: column;
+        flex-direction: column;
    }
 
    .appart-collapse>.container-value{
-    width: 95%;
-}
+        width: 95%;
+    }
 }

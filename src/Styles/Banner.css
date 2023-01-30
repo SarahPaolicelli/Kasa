@@ -12,6 +12,7 @@
     filter : brightness(60%);
     border-radius:25px;
     position: relative; 
+    width: 100%;
 }
 
 .banner-txt { 
@@ -29,7 +30,4 @@
         font-size:25px;
     }
 
-    .container-banner{
-        padding-right: 135px;
-    }
 }

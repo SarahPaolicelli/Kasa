@@ -11,12 +11,12 @@
     margin : 10px;
 }
 
-.menuPuce > a {
+.activeLink:visited, .activeLink:active, .activeLink:link {
+    text-decoration: underline;
     color: #FF6060;
-    text-decoration: none;
 }
 
-.menuPuce > a:hover {
+.nonActiveLink:link, .nonActiveLink:visited, .nonActiveLink:active {
+    text-decoration: none;
     color: #FF6060;
-    text-decoration:underline;
 }

@@ -10,8 +10,8 @@
 }
 
 .vectorLeft,
-.vectorRight{
-    cursor: pointer;
+.vectorRight,
+.compteur{  
     position: absolute;
     color: white ;
     padding: 10px;  
@@ -19,15 +19,22 @@
 
 .vectorLeft{
     left:0;
+    cursor: pointer;
 }
 
 .vectorRight{
     right: 0;
+    cursor: pointer;
+}
+
+.compteur{
+    bottom: 0;
+    font-size:x-large;
+    left:50% ;
 }
 
 .slide{
     width: 100%;
-   
 }
 
 

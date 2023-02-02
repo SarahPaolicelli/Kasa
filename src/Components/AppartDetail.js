@@ -1,14 +1,19 @@
-import { useParams } from 'react-router-dom';
+import { useParams, Navigate} from 'react-router-dom';
 import list from '../Datas/list.json';
 import Rating from './Rating';
 import Slider from './Slider';
 import Collapse from './Collapse';
 import '../Styles/Appart.css';
+import React from 'react';
 
 function AppartDetail () {
 
     const {id} = useParams();
     const target = list.find(appart => appart.id === id )
+
+        if (target === undefined){  
+            return <Navigate to="*"/>
+        }
 
     return(
         <div className='container'>

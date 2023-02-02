@@ -23,7 +23,8 @@ function Slider(props) {
         <div className="slider">
             <img className='slide' alt="logement" src={pictures[num]} />
             <img src={vectorLeft} alt="fleche vers la gauche" className="vectorLeft" onClick={() => changeSlide(-1)} />
-            <img src={vectorRight} alt="fleche vers la droite" className="vectorRight" onClick={() => changeSlide(1)} /> 
+            <img src={vectorRight} alt="fleche vers la droite" className="vectorRight" onClick={() => changeSlide(1)} />
+            <div className="compteur">{num + 1}/{pictures.length}</div> 
         </div>
     )
 }

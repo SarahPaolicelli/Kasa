@@ -1,4 +1,4 @@
-#Projet 7 Openclassrooms
+Projet 7 Openclassrooms
 
 # Getting Started with Create React App
 
